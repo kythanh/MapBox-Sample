@@ -3,5 +3,5 @@ language: objective-c
 xcode_workspace: MapboxDemo.xcworkspace
 xcode_scheme: MapboxDemo
 xcode_sdk: iphonesimulator8.4
-script: 
-	- xcodebuild -workspace MapboxDemo.xcworkspace -scheme MapboxDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script:
+ - xcodebuild -workspace MapboxDemo.xcworkspace -scheme MapboxDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
